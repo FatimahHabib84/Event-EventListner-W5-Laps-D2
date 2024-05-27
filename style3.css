@@ -1,0 +1,20 @@
+body{
+    display: grid;
+    padding: 1rem;
+    grid-template-rows: auto auto;
+    background-color: lightpink;
+    gap: 5vh;
+}
+*{
+    font-weight: bold;
+}
+button{
+    background-color: palevioletred;
+    border-color: violet;
+    width: 20vw;
+    margin: auto;
+}
+div{
+    display: grid;
+    grid-template-rows: auto auto;
+}
