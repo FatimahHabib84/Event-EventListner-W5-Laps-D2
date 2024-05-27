@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lap-4</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        div{
+            width: 30%;
+            height: 40%;
+            background-color: blue;
+        }
+        section{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around ;
+        }
+    </style>
+</head>
+<body>
+    <label for="width">Enter the width</label>
+    <input name="width" id="width" type="number">
+    <label for="height">Enter the height</label>
+    <input id="height" name="height" type="number">
+    <label for="color">Choose a color</label>
+    <input id="color" name="color" type="color">
+    <label for="radius">Enter the radius</label>
+    <input id="radius" name="radius" type="number">
+
+    <section>
+        <button id="set">set</button>
+        <button id="reset">reset</button>
+    </section>
+
+    <div></div>
+    <script src="main4.js"></script>
+</body>
+</html>
